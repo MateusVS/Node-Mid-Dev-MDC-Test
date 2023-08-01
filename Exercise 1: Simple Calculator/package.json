@@ -1,0 +1,21 @@
+{
+  "name": "node-mid-dev-mdc-test",
+  "version": "1.0.0",
+  "description": "This is the repository containing the test for my application for the Node Developer Mid Level position. In this repository, you will find my solution to the proposed challenges, demonstrating my skills and knowledge in development.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest run",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules src/index.ts"
+  },
+  "keywords": [],
+  "author": "Mateus Vinicius da Silva",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.4.5",
+    "mock-stdin": "^1.0.0",
+    "typescript": "^5.1.6",
+    "vitest": "^0.34.1"
+  }
+}
