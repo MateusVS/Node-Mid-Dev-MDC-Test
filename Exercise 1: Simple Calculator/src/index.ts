@@ -5,12 +5,8 @@ import { closeReadline, getUserInput, getValidNumberInput } from './utils/userIn
 
 async function main() {
   try {
-    const firstNumStr = await getValidNumberInput('Enter the first number: ');
-    const firstNum = firstNumStr;
-
-    const secondNumStr = await getValidNumberInput('Enter the second number: ');
-    const secondNum = secondNumStr;
-
+    const firstNum = await getValidNumberInput('Enter the first number: ');
+    const secondNum = await getValidNumberInput('Enter the second number: ');
     const operator = await getUserInput('Enter the operator (+, -, *, /): ');
 
     const calculator = new Calculator(firstNum, secondNum, operator as Operator);

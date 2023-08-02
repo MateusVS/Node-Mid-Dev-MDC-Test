@@ -1,4 +1,4 @@
-import { IPrimeChecker } from "./interfaces/IPrimeChecker";
+import { IPrimeChecker } from './interfaces/IPrimeChecker';
 
 export class PrimeChecker implements IPrimeChecker {
   isPrime(num: number): boolean {
