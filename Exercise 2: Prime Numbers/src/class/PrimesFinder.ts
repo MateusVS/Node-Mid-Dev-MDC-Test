@@ -1,5 +1,5 @@
-import { IPrimeChecker } from './interfaces/IPrimeChecker';
-import { IPrimesFinder } from './interfaces/IPrimesFinder';
+import { IPrimeChecker } from '../interfaces/IPrimeChecker';
+import { IPrimesFinder } from '../interfaces/IPrimesFinder';
 
 export class PrimesFinder implements IPrimesFinder {
   private primeChecker: IPrimeChecker;

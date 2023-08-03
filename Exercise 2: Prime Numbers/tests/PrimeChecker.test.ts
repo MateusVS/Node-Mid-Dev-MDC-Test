@@ -1,5 +1,5 @@
 import { IPrimeChecker } from 'src/interfaces/IPrimeChecker';
-import { PrimeChecker } from '../src/PrimeChecker';
+import { PrimeChecker } from '../src/class/PrimeChecker';
 import { beforeEach, expect, describe, it } from 'vitest';
 
 describe('PrimeChecker', () => {

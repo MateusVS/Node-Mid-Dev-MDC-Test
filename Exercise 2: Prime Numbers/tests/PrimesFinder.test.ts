@@ -1,5 +1,5 @@
-import { PrimesFinder } from '../src/PrimesFinder';
-import { PrimeChecker } from '../src/PrimeChecker';
+import { PrimesFinder } from '../src/class/PrimesFinder';
+import { PrimeChecker } from '../src/class/PrimeChecker';
 import { IPrimeChecker } from '../src/interfaces/IPrimeChecker';
 import { IPrimesFinder } from '../src/interfaces/IPrimesFinder';
 import { beforeEach, expect, describe, it } from 'vitest';

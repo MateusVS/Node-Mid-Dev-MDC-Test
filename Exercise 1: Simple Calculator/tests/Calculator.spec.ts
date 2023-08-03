@@ -1,6 +1,6 @@
 import { expect, describe, it } from 'vitest';
 import { Operator } from '../src/types/Operator';
-import Calculator from '../src/calculator/Calculator';
+import Calculator from '../src/class/Calculator';
 
 describe('Calculator', () => {
   it('should add two numbers', () => {
