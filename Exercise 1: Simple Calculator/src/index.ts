@@ -1,4 +1,4 @@
-import Calculator from './calculator/Calculator';
+import Calculator from './class/Calculator';
 import { AppError } from './errors/AppError';
 import { Operator } from './types/Operator';
 import { closeReadline, getUserInput, getValidNumberInput } from './utils/userInput';

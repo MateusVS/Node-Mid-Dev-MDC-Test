@@ -1,5 +1,5 @@
-import { PrimesFinder } from './PrimesFinder';
-import { PrimeChecker } from './PrimeChecker';
+import { PrimesFinder } from './class/PrimesFinder';
+import { PrimeChecker } from './class/PrimeChecker';
 
 const numberOfPrimesToFind = 10;
 const primeChecker = new PrimeChecker();
