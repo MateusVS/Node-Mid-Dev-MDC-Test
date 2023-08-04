@@ -24,7 +24,7 @@ describe('GradeCalculator class spec', () => {
   it('should calculate average of grades for mixed numbers', () => {
     const grades = [90, -80, 100, 70];
     const average = gradeCalculator.calculateAverage(grades);
-    expect(average).toBe(70);
+    expect(average).toBe(45);
   });
 
   it('should throw error for empty grades array', () => {

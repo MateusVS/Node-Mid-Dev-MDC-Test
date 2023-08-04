@@ -18,7 +18,7 @@ describe('InterestCalculator class spec', () => {
       interestRate,
       investmentTimeMonths
     );
-    expect(finalValue).toBe(1051.16);
+    expect(finalValue).toBeCloseTo(1795.856, 2);
   });
 
   it('should calculate final value with negative interest rate', () => {
@@ -30,7 +30,7 @@ describe('InterestCalculator class spec', () => {
       interestRate,
       investmentTimeMonths
     );
-    expect(finalValue).toBe(1452.92);
+    expect(finalValue).toBeCloseTo(1249.458, 2);
   });
 
   it('should calculate final value with zero initial capital', () => {
@@ -42,6 +42,6 @@ describe('InterestCalculator class spec', () => {
       interestRate,
       investmentTimeMonths
     );
-    expect(finalValue).toBe(0);
+    expect(finalValue).toBeCloseTo(0, 2);
   });
 });
